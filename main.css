@@ -15,14 +15,24 @@ body{
 }
 h1{
     margin: 20px;
-    text-align: right;
-    font-size: 10px;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: 650px;
+    left: 123px;
+    animation: text 1s linear forwards 11s;
 }
+@keyframes text {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
 .center
 {
-    position: relative;
-    width: 400px;
+    position: absolute;
+    width: 350px;
 }
+
 .center div{
     position: relative;
     height: 100px;
@@ -89,7 +99,7 @@ h1{
     transform-origin: left;
     animation-delay: 10s;
     width: 60%;
-    left: 0%;
+    left: 0;
 }
 @keyframes animate
 {
@@ -177,10 +187,10 @@ h1{
 .loding .bar
 {
     position: relative;
-    width: 400px;
+    width: 225px;
     height: 40px;
     background: transparent;
-    margin: 0 20px;
+    margin: 0 10px;
     border: 2px solid #000;
     box-sizing: border-box;
 }
