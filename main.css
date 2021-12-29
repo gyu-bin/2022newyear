@@ -18,7 +18,7 @@ h1{
     text-align: center;
     font-size: 15px;
     position: absolute;
-    top: 350px;
+    top: -200px;
     left: 123px;
     animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both 11s;
 }
@@ -33,6 +33,7 @@ h1{
 {
     position: absolute;
     width: 350px;
+    top: -60px;
 }
 
 .center div{
@@ -229,15 +230,17 @@ h1{
 
 .fa-arrow-left{
     position: absolute;
-    top: 440px;
+    top: 338px;
     left: 36px;
     font-size: 15px;
+    animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both 13s;
 }
 .fa-arrow-right{
     position: absolute;
-    top: 440px;
+    top: 338px;
     left: 284px;
     font-size: 15px;
+    animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both 13s;
 }
 a {
     text-decoration:none;
@@ -246,9 +249,10 @@ a {
 
 .arrow{
     text-align: center;
-    position: absolute;
-    top: 425px;
-    left: 97px;
+    position: relative;
+    top: 317px;
+    left: 0;
     font-size: 22px;
     font-family: 'Cute Font', cursive;
+    animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both 12s;
 }
