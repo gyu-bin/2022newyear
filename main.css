@@ -18,15 +18,17 @@ h1{
     text-align: center;
     font-size: 15px;
     position: absolute;
-    top: 650px;
+    top: 350px;
     left: 123px;
-    animation: text 1s linear forwards 11s;
+    animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both 11s;
 }
-@keyframes text {
-    0%{opacity: 0;}
-    100%{opacity: 1;}
+@keyframes tracking-in-expand{
+    0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+.happy{
+    position: absolute;
+    width: 350px;
+    top: 250px;
 }
-
 .center
 {
     position: absolute;
